@@ -1,0 +1,331 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* topHead */
+.topHead{
+    background-color: #563d7c;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    padding-left: 40%;
+}
+
+/* secondhead */
+.secondhead{
+    background-color: #7952b3;
+    padding: 20px;
+}
+
+.innerSpace{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.innerSpace .right{
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+}
+
+.fa-bootstrap{
+    font-size: 50px;
+    color: white;
+}
+
+.docChange{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.innerSpace li{
+    list-style: none;
+    margin-left: 10px;
+    
+}
+
+.innerSpace li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+   
+}
+
+.innerSpace  .left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.fa-brands {
+    margin-right: 20px;
+   
+}
+
+.fa-github, .fa-twitter{
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+.downBtn{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 15px;
+    color: #ffe484;
+    border: 2px solid #ffe484;
+    background-color: #7952b3;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.downBtn:hover{
+    color: black;
+    background-color: #ffe484;
+}
+
+
+/* thirdHead */
+
+.thirdHead{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+    border-bottom: 1px solid gray;
+    box-shadow: 0px 1px 20px gray;
+}
+
+.searchBox{
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 350px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.searchbox{
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.searchBox span{
+    border: 1px solid gray;
+    padding: 5px;
+    font-size: 17px;
+    border-radius: 5px;
+    color: gray;
+    
+} 
+
+.boot1{
+    width: 200px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    font-size: 20px;
+    color: gray;
+    padding: 5px;
+    background-color: white;
+
+}
+
+.boot1 li{
+    display: inline-block;
+    position: relative;
+}
+
+.boot1 li a{
+    display: block; 
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: gray;
+}
+
+.boot1 li ul.dropDown li{
+    display: block;
+}
+
+.boot1 li ul.dropDown{
+    width: 200px;
+    border: 2px solid gray;
+    margin-left: -5px;
+    margin-top: 5px;
+    position: absolute;
+    z-index: 999;
+    display: none;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.boot1 li:hover .dropDown{
+    display: block;
+}
+
+
+
+/* contantPage */
+
+.contantPage{
+    display: flex;
+    margin-top: 50px;
+}
+.contantPage .left{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-left: 150px;
+}
+
+.opt{
+    display: flex;
+    margin-top: 20px;
+    font-size: 20px;
+    color:  gray;
+    cursor: pointer;
+
+}
+
+.fa-angle-right{
+    font-size: 20px;
+    color: gray;
+    margin-right: 20px;
+    cursor: pointer;
+   
+}
+
+.opt p{
+    font-weight: 600;
+}
+
+.opt p:hover{
+    color: black;
+}
+
+.get__start :nth-child(2){
+    display: none;
+}
+
+.get__start :nth-child(1):hover+.sub__option{
+    display: block;
+    
+}
+
+.sub__option li{
+    list-style: none;
+    margin: 10px;
+   
+}
+
+.sub__option li a{
+    text-decoration: none;
+    color: gray;
+}
+
+.main{
+    width: 50%;
+}
+
+.headflex{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    padding-left: -10px;
+}
+
+.headflex h1{
+    font-size: 70px;
+}
+
+.headflex li{
+    list-style: none;
+}
+.headflex li a{
+    color: gray;
+    font-size: 17px;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.toppara{
+    font-size: 30px;
+}
+
+.AdPage{
+    display: flex;
+    width: 300px;
+    align-items: center;
+    height: 120px;
+    background-color: rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.ad__img{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    font-size: 40px;
+    margin-left: 10px;
+    text-align: center;
+    padding-top: 30px;
+    margin-right: 30px;
+}
+
+.quickStarPara{
+    margin-top: 10px;
+    line-height: 25px;
+    font-size: 20px;
+}
+
+.css{
+    margin-top: 20px;
+}
+.contantPage .right{
+    width: 25%;
+    padding-left: 80px;
+}
+
+.contantPage .right p{
+    font-size: 25px;
+    color: gray;
+}
+
+.contantPage .right hr{
+    margin-top: 5px;
+    width: 200px;
+}
+.innerli{
+    margin-left: 20px;
+}
+
+.contantPage .right li{
+    list-style: none; 
+    color: gray;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.contantPage .right li a{
+    text-decoration: none;
+    color: gray;
+}
+
